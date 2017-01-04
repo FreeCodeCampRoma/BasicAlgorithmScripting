@@ -15,6 +15,27 @@ git clone https://github.com/FreeCodeCampRoma/BasicAlgorithmScripting
 cd BasicAlgorithmScripting && npm install
 ```
 
-# Regole
+# Test
+
+Per eseguire i test ho usato Mocha e Chai, il primo un test runner, il secondo una libreria di asserzioni. Per eseguirli, vi basterà, dalla root del progetto, eseguire:
+
+```
+npm run test
+```
+
+# Come usare questo spazio
 
 1. Potete creare i vostri files o lavorare sui files già presenti.
+2. Per aggiungere una vostra variante vi basterà inserirla nell'index.js della cartella del progetto, sia come require del modulo che come proprietà dell'oggetto esportato.
+3. Potete aggiungere la vostra variante nel file di test.
+
+# Inserire un progetto nuovo
+
+Potete creare la vostra cartella per un nuovo progetto ancora non presente seguendo questo schema:
+
+1. Create la cartella del progetto (es. "FindingAReminderInJavascript");
+2. Create un file index.js all'interno della cartella creata al punto 1;
+3. Create un file dove scriverete la vostra soluzione;
+4. Se proponi più varianti puoi inserirle nello stesso file o creare nuovi file;
+5. Ricorda di esportare i tuoi moduli nel file index.js;
+6. Crea un file di test nella cartella Test inserendo il suffisso -test nel nome come parte finale;
